@@ -91,7 +91,7 @@ exports.imageclick = async (req, res) => {
 
     // Return the file data including updated click count
     res.json({
-      imageUrl: `http://localhost:3000/${file.filePath}`,
+      imageUrl: `http://167.172.103.104:3000/${file.filePath}`,
       // Include file tags if needed
     });
   } catch (error) {
